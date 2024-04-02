@@ -1,0 +1,158 @@
+@charset "ISO-8859-1";
+body{
+	margin:0;
+
+}
+:root{
+--pink:#FF90BB;
+--orange:#FC4F00;
+--purple:#B71375;
+--violet:#DD58D6;
+--white:#F9F5F6;
+--green:#00DFA2;
+--yellow:#FFE569;
+--lblue:#090580;
+--blue:#75C2F6;
+--sandal:#FFE4A7;
+}
+body,h1{
+margin:0;
+}
+.heading{
+	background-image: url('bg.jpg');
+	background-size:cover;
+	background-position:center;
+	height:100vh;
+	
+}
+header a{
+	text-decoration:none;
+	color:var(--pink);
+	min-width:120px;
+}
+
+header{
+display:flex;
+padding:1em;
+flex-wrap:wrap;
+row-grap:1em;
+}
+#logo{
+flex:3;
+font-size:1.25em;
+}
+
+nav{
+flex:2;
+display:flex;
+}
+nav a{
+flex:1;
+}
+nav a:hover{
+color:var(--green);
+}
+.main{
+display:flex;
+flex-direction:column;
+height:50vh;
+justify-content:center;
+padding:2em;
+}
+.tag1{
+color:var(--white);
+font-size:2.5em;
+font-weight:bolder;
+}
+.tag2{
+color:var(--yellow);
+}
+.callus{
+color:var(--sandal);
+}
+.main div{
+margin-top:.75em;
+}
+.main button{
+width:20vw;
+margin-top:2em;
+border-radius:10px;
+padding:.7em;
+background-color:var(--green);
+border:1px solid var(--green);
+
+}
+.main button:hover{
+color:white;
+
+}
+.start{
+	font-size:1.5em;
+	padding:.5em;
+	color:var(--blue);
+	
+}
+table{
+width:100%;
+padding:1em;
+}
+.menu {
+display:grid;
+background:linear-gradient(to right,rgb(110,100,100),rgb(53, 52,52));
+color:white;
+grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+}
+.color{
+color:var(--pink);
+}
+#menuheading,#locaheading{
+	background:linear-gradient(to right,rgb(110,100,100),rgb(53, 52,52));
+	font-size:2.5em;
+	color:red;
+	display:flex;
+	justify-content: center;
+
+}
+.starters{
+grid-row:span 2;
+}
+.locations{
+background:linear-gradient(to right,rgb(110,100,100),rgb(53, 52,52));
+color:white;
+flex-wrap:wrap;
+}
+.locations h2{
+color:var(--green);
+margin-bottom:.8em;
+display:flex;
+}
+.locations div{
+flex:1;
+padding:1em;
+}
+.menu tr{
+display:flex;
+justify-context:center;
+margin-top:.8em;
+
+}
+.menu td:nth-child(1){
+flex:1;
+justify-self:left;
+
+}
+.menu td:nth-child(2){
+
+justify-self:right;
+
+}
+.footer{
+background-color:grey;
+color:white;
+padding:25em 1em;
+
+}
+header h2 i, nav i{
+margin-right:.5em;
+}
+
